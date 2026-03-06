@@ -11,14 +11,18 @@ The pipeline reads raw CSV files, prepares the data, joins dimension tables, and
 
 ```
 1. Data Ingestion – Load raw CSV files (location, product, and transaction facts) using Spark.
+
 2. Data Cleansing – Fix date formats, cast numeric fields, remove malformed rows, and replace null sales/units with 0.
+
 3. Data Integration – Join transaction data with location and product datasets.
-4. Analytics** – Generate insights:
+
+4. Analytics – Generate insights:
 
    Store performance by province
    Loyalty vs non-loyalty customer performance
    Top 5 stores by province
    Top 10 product categories by department
+
 5. Output – Results are written to the `output/` folder as CSV files.
 ```
 
