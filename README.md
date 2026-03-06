@@ -19,6 +19,8 @@ This project builds a simple Spark-based data pipeline to ingest, clean, and ana
 
 ## Project Structure
 
+```
+
 DataHubDeveloperHomework/
 │
 ├── data/
@@ -42,6 +44,8 @@ DataHubDeveloperHomework/
 ├── output/
 │
 └── README.md
+
+```
 
 ## Run the Pipeline
 
